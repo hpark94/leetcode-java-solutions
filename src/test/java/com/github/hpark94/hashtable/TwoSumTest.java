@@ -2,12 +2,20 @@ package com.github.hpark94.hashtable;
 
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 public class TwoSumTest {
+
+    private static TwoSum solution;
+
+    @BeforeEach
+    void setup() {
+        solution = new TwoSum();
+    }
+
     @Test
     void testTwoSum1() {
-        TwoSum solution = new TwoSum();
         int[] nums = new int[]{
             2,
             7,
@@ -27,7 +35,6 @@ public class TwoSumTest {
 
     @Test
     void testTwoSum2() {
-        TwoSum solution = new TwoSum();
         int[] nums = new int[]{
             3,
             2,
@@ -46,7 +53,6 @@ public class TwoSumTest {
 
     @Test
     void testTwoSum3() {
-        TwoSum solution = new TwoSum();
         int[] nums = new int[]{
             3,
             3

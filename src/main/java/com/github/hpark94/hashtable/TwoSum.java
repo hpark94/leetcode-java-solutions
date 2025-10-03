@@ -4,6 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class TwoSum {
+
     /**
      * 0001
      * Difficulty: Easy
@@ -38,7 +39,7 @@ public class TwoSum {
      * @return Array containing the two indices
      */
     public int[] twoSum(int[] nums, int target) {
-        Map<Integer, Integer> map = new HashMap<>();
+        Map<Integer, Integer> map = new HashMap<Integer, Integer>();
 
         int idx1 = 0;
         int idx2 = 0;
