@@ -2,6 +2,8 @@ package com.github.hpark94.array;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
+import java.util.Arrays;
+
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -31,6 +33,8 @@ public class RemoveElementTest {
         int k = solution.removeElement(nums, val);
 
         assertEquals(expectedNums.length, k);
+        Arrays.sort(nums, 0, k);
+        Arrays.sort(expectedNums, 0, k);
         for (int i = 0; i < k; i++) {
             assertEquals(expectedNums[i], nums[i]);
         }
@@ -52,14 +56,16 @@ public class RemoveElementTest {
         int[] expectedNums = new int[]{
             0,
             1,
-            3,
+            4,
             0,
-            4
+            3
         };
 
         int k = solution.removeElement(nums, val);
 
         assertEquals(expectedNums.length, k);
+        Arrays.sort(nums, 0, k);
+        Arrays.sort(expectedNums, 0, k);
         for (int i = 0; i < k; i++) {
             assertEquals(expectedNums[i], nums[i]);
         }
