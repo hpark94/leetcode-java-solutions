@@ -1,6 +1,7 @@
 package com.github.hpark94.array;
 
 public class NextPermutation {
+
     /**
      *
      * 0031
