@@ -81,9 +81,9 @@ public class SimplifyPath {
      *
      * "..." is a valid name for a directory in this problem.
      *
-     * @param path
+     * @param path String of path to simplify
      *
-     * @return
+     * @return Simplified path
      */
     public String simplifyPath(String path) {
         // Stack class also possible

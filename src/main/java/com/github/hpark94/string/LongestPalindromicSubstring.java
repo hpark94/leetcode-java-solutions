@@ -19,7 +19,7 @@ public class LongestPalindromicSubstring {
      * Input: s = "cbbd"
      * Output: "bb"
      *
-     * @param s String
+     * @param s String to analyze
      *
      * @return Longest palindromic substring
      */
