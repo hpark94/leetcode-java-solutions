@@ -39,7 +39,7 @@ public class TwoSum {
      * @return Array containing the two indices
      */
     public int[] twoSum(int[] nums, int target) {
-        Map<Integer, Integer> map = new HashMap<Integer, Integer>();
+        Map<Integer, Integer> map = new HashMap<>();
 
         int idx1 = 0;
         int idx2 = 0;
