@@ -1,23 +1,29 @@
 package com.github.hpark94.string;
 
+/**
+ * 0005
+ * Difficulty: Medium
+ *
+ * Given a string s, return the longest palindromic substring in s.
+ *
+ * Example 1:
+ *
+ * Input: s = "babad"
+ * Output: "bab"
+ * Explanation: "aba" is also a valid answer.
+ *
+ * Example 2:
+ *
+ * Input: s = "cbbd"
+ * Output: "bb"
+ */
 public class LongestPalindromicSubstring {
 
     /**
-     * 0005
-     * Difficulty: Medium
+     * A string s is given. Returns the longest palindromic substring in s.
      *
-     * Given a string s, return the longest in s.
-     *
-     * Example 1:
-     *
-     * Input: s = "babad"
-     * Output: "bab"
-     * Explanation: "aba" is also a valid answer.
-     *
-     * Example 2:
-     *
-     * Input: s = "cbbd"
-     * Output: "bb"
+     * Time: O(n^2)
+     * Space: O(1)
      *
      * @param s String to analyze
      *
